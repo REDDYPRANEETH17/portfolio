@@ -1,0 +1,147 @@
+#background{
+    background-image: url('background.jpg'); 
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+}
+
+*{
+    text-decoration: none;
+}
+#navigation{
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.navdiv{ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+li a{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 25px;
+}
+#footer{
+    color:solid black;
+    text-align: right;
+    padding-top: 20%;
+    position: relative;
+    justify-content: space-between;
+}
+#button{
+    border-radius: 7px;
+    padding-top: 0px;
+}
+footer{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    font-family: "Open Sans";
+    padding-top:auto ;
+    color:white;
+ }
+ .footer-content{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     text-align: center;
+ }
+ .footer-content h3{
+     font-size: 1.8rem;
+     font-weight: 400;
+     text-transform: capitalize;
+     line-height: 3rem;
+     margin: 0px;
+ }
+ .footer-content p{
+     max-width: 500px;
+     margin: 2px;
+     line-height: 28px;
+     font-size: 14px;
+ }
+ .socials{
+     list-style: none;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin: 1rem 0 3rem 0;
+ }
+ .socials li{
+     margin: 0 10px;
+ }
+ .socials a{
+     text-decoration: none;
+     color:white;
+ }
+ .section{
+    width: 100%;
+    min-height: 80vh;
+ }
+ .container{
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-top: 100px;
+ }
+ .container-section{
+    float: left;
+    width: 55%;
+    color: white;
+    padding-left:80px;
+ }
+ .image-section{
+    float: right;
+    width: 30%;
+ }
+ .image-section img{
+    width: 100%;
+    height: auto;
+ }
+ .container-section .title{
+    text-transform: uppercase;
+    font-size: 28px;
+ }
+ .container-section .content h3{
+    margin-top: 20px;
+    color: #5d5d5d;
+    font-size: 21px;
+ }
+ .container-section .content p{
+    margin-top: 10px;
+    font-size: 18px;
+    line-height: 1.5;
+ }
+ .velvet{
+   padding-left: 230px;
+ }
+ .velvet .skills h3{
+    text-transform: uppercase;
+    font-size: 21px;
+}
+.description ,li{
+    font-size: larger;
+    color: white;
+}
+.certifications,.description{
+    padding-left: 230px;
+    padding-top: 100px;
+}
+.description{
+    display: block;
+    margin: auto;
+}
+ 
